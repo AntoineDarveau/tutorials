@@ -1,1 +1,1 @@
-Folder to put images for notebooks
+# Folder to put images for notebooks
