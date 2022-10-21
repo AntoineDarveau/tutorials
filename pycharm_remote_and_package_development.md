@@ -53,5 +53,10 @@ Finally, click on create to confirm. It will check if it can find the interprete
 
 Your project is created!
 
+### Additional notes
+- You can switch between interpreters at will. For example, you may want a local interpreter in case your connexion is not working. It can also be useful to be able to work on different servers. To do so, just select or add the interpreter at the bottom of the pycharm window.
+
+
+
 ## 2.
  
