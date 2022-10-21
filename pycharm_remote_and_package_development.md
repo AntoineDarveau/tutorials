@@ -10,7 +10,8 @@ a. Go in the menu bar and select File/New Project...
 ![](images/pycharm_remote_and_package_development/step01.png)
 
 
-b. Define a remote interpreter (if you want to work remotely).
+b. Define a remote interpreter (if you want to work remotely).  
+You can also choose the name of the project. Here it will stay `pythonProject`.
 
 ![](images/pycharm_remote_and_package_development/step02.png)
 
