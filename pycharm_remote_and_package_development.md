@@ -58,6 +58,9 @@ Your project is created!
 
 ![](images/pycharm_remote_and_package_development/step11.png)
 
+- You can access you ssh remotes in the Preferences
+![](images/pycharm_remote_and_package_development/see_remotes.png)
+
 ## 2. Sync with remote
 
 ### 2.1 Update the python interpreter
@@ -92,6 +95,20 @@ You need to specify (again...) which directory and server will be used to sync y
 
 a. Go in the menu bar, select Tools | Deployment | Configuration
 
+![](images/pycharm_remote_and_package_development/step22.png)
+
 b. Select the correct server with the options you want.
+ * Note that you can set the root path to your home directory. Easier for navigation.
+
+![](images/pycharm_remote_and_package_development/step23.png)
+
+c. Set the correct mapping (again) between your local pycharm project and the remote directory
+
+![](images/pycharm_remote_and_package_development/step24.png)
+
+Notes
+ * You can change the name of the deployment server for clarity
+![](images/pycharm_remote_and_package_development/rename.png)
+
 
  
