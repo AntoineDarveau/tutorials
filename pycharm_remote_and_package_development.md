@@ -58,5 +58,34 @@ Your project is created!
 
 ![](images/pycharm_remote_and_package_development/step11.png)
 
-## 2.
+## 2. Sync with remote
+
+To be able to run and keep files on the remote in sync, you need too specify the remote interpreter (again) and the remote project.
+
+a. Go in Preferences, then Python interpreter
+
+![](images/pycharm_remote_and_package_development/step12.png)
+
+![](images/pycharm_remote_and_package_development/step13.png)
+
+b. Choose an existing ssh interpreter (you  just created in [Step 1](#1-create-an-empty-project))
+
+![](images/pycharm_remote_and_package_development/step14.png)
+
+![](images/pycharm_remote_and_package_development/step15.png)
+
+c. Then you need to re-specify the python interpreter in the remote server (same as in [Step 1](#1-create-an-empty-project))
+
+![](images/pycharm_remote_and_package_development/step17.png)
+
+![](images/pycharm_remote_and_package_development/step18.png)
+
+d. And the project directory on the remote host.
+
+![](images/pycharm_remote_and_package_development/step19.png)
+
+![](images/pycharm_remote_and_package_development/step20.png)
+
+And your done!
+
  
