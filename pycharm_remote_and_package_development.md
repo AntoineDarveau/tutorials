@@ -60,6 +60,7 @@ Your project is created!
 
 ## 2. Sync with remote
 
+### 2.1 Update the python interpreter
 To be able to run and keep files on the remote in sync, you need too specify the remote interpreter (again) and the remote project.
 
 a. Go in Preferences, then Python interpreter
@@ -86,6 +87,11 @@ d. And the project directory on the remote host.
 
 ![](images/pycharm_remote_and_package_development/step20.png)
 
-And your done!
+### 2.2 Setup the deployment server
+You need to specify (again...) which directory and server will be used to sync your project.
+
+a. Go in the menu bar, select Tools | Deployment | Configuration
+
+b. Select the correct server with the options you want.
 
  
