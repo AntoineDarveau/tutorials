@@ -1,8 +1,4 @@
-# How to use pycharm to contribute to multiple git repositories
-This includes:
-- Using git on different repositories, but in the same pycharm project
-- Having non-shared (not tracked by git) code to test or just analyse data
-- Bonus: running the code on remote servers (niagara in this case)
+# How to sync and run pycharm on remote servers
   
 ## 1. Create an empty project
 a. Go in the menu bar and select File/New Project...
