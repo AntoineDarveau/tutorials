@@ -1,4 +1,10 @@
 # How to sync and run pycharm on remote servers
+
+All the informations presented here were taken from the PyCharm documentation, more specifically:
+- [Create a python project](https://www.jetbrains.com/help/pycharm/creating-empty-project.html#78cd71c7)
+- [Configure an interpreter using SSH](https://www.jetbrains.com/help/pycharm/configuring-remote-interpreters-via-ssh.html)
+- [Configure a Python interpreter](https://www.jetbrains.com/help/pycharm/configuring-python-interpreter.html)
+- [Tutorial: Deployment in PyCharm](https://www.jetbrains.com/help/pycharm/tutorial-deployment-in-product.html#mapping-tab)
   
 ## 1. Create an empty project
 a. Go in the menu bar and select File/New Project...
