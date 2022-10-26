@@ -131,3 +131,13 @@ c. For the rest, it is relatively straigthforward. We will take an example here 
 ![](images/use_pycharm_with_remote/step28.png)
 
 
+### Here is an example for my configuration on genesis
+
+![](images/use_pycharm_with_remote/step29.png)
+
+With my adb_genesis defined in my  `.ssh/config` file as:
+
+![](images/use_pycharm_with_remote/step30.png)
+
+
+
