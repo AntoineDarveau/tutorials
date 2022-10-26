@@ -119,8 +119,15 @@ Bonus: We take the example of astro.umontreal servers with proxy jump
 
 a. Open **PyCharm | Preferences** and then go in **Tools | SSH Connfigurations**
 
+![](images/use_pycharm_with_remote/step25.png)
+![](images/use_pycharm_with_remote/step26.png)
+
 b. Then you can manage your ssh configurations or create a new one by clicking on the + sign.
 
-c. For the rest, it is relatively straigthforward. We will take an example here with a .ssh/config file. I think it is the simplest way to work. To generate it see the  tutorial on [ssh configuration for astro servers](ssh_config_on_astro_servers.md). Then you just have to use the name of the server in the config file. In this situation, the proxy jump is handle within the config file!
+![](images/use_pycharm_with_remote/step27.png)
+
+c. For the rest, it is relatively straigthforward. We will take an example here with a .ssh/config file. I think it is the simplest way to work. To generate it see the  tutorial on [ssh configuration for astro servers](ssh_config_on_astro_servers.md). Then you just have to use the name of the server in the config file and check the **Parse config file** option. In this situation, the proxy jump is handle within the config file!
+
+![](images/use_pycharm_with_remote/step28.png)
 
 
