@@ -140,4 +140,12 @@ With my adb_genesis defined in my  `.ssh/config` file as:
 ![](images/use_pycharm_with_remote/step30.png)
 
 
+And you are all set!
+
+
+## Now, how do you work with this?
+
+My favorite way is to have the remote code completely synchronised with the local code. This is described in the PyCharm doc [Automatic upload to the default server](https://www.jetbrains.com/help/pycharm/tutorial-deployment-in-product.html#upload-to-default-server) (along with other ways  to work with remote deployment). I personnally prefer to put the option **Upload changed files to the default server** to **On explicit save action** instead of **Always**. I also recommend to check the box **Skip external changes** ine **Deployment | Options**.
+
+Then, you simply have to run your the same way you would use pycharm locally! But it will use the python interpreter from the remote host.
 
