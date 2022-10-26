@@ -4,9 +4,9 @@ All the informations presented here were taken from the PyCharm documentation, m
 - [Create a python project](https://www.jetbrains.com/help/pycharm/creating-empty-project.html#78cd71c7)
 - [Configure an interpreter using SSH](https://www.jetbrains.com/help/pycharm/configuring-remote-interpreters-via-ssh.html)
 - [Configure a Python interpreter](https://www.jetbrains.com/help/pycharm/configuring-python-interpreter.html)
-- [Tutorial: Deployment in PyCharm](https://www.jetbrains.com/help/pycharm/tutorial-deployment-in-product.html#mapping-tab)
-  
-## 1. Create an empty project
+- [Tutorial: Deployment in PyCharm](https://www.jetbrains.com/help/pycharm/tutorial-deployment-in-product.html#mapping-tab) 
+
+## 1. Create an empty project (if you already have a project, go to [Step 2](#2-sync-with-remote))
 a. Go in the menu bar and select File/New Project...
 
 ![](images/pycharm_remote_and_package_development/step01.png)
@@ -45,7 +45,7 @@ Notes:
  
 ![](images/pycharm_remote_and_package_development/step07.png)
  
- To find the correct location, you can write it directly or browes the remote files.
+ To find the correct location, you can write it directly or browse the remote files.
  
 ![](images/pycharm_remote_and_package_development/step09.png)
 
@@ -74,7 +74,7 @@ a. Go in Preferences, then Python interpreter
 
 ![](images/pycharm_remote_and_package_development/step13.png)
 
-b. Choose an existing ssh interpreter (you  just created in [Step 1](#1-create-an-empty-project))
+b. Choose an existing ssh interpreter (you just created in [Step 1](#1-create-an-empty-project))
 
 ![](images/pycharm_remote_and_package_development/step14.png)
 
@@ -95,6 +95,8 @@ d. And the project directory on the remote host.
 ### 2.2 Setup the deployment server
 You need to specify (again...) which directory and server will be used to sync your project.
 
+Note: I think this is done implicitely by the previous step (2.1d), so the following steps might be superfluous.
+
 a. Go in the menu bar, select Tools | Deployment | Configuration
 
 ![](images/pycharm_remote_and_package_development/step22.png)
@@ -112,5 +114,13 @@ Notes
  * You can change the name of the deployment server for clarity
 ![](images/pycharm_remote_and_package_development/rename.png)
 
+## 3. Create remote ssh configuration
+Bonus: We take the example of astro.umontreal servers with proxy jump
 
- 
+a. Open **PyCharm | Preferences** and then go in **Tools | SSH Connfigurations**
+
+b. Then you can manage your ssh configurations or create a new one by clicking on the + sign.
+
+c. For the rest, it is relatively straigthforward. We will take an example here with a .ssh/config file. I think it is the simplest way to work. To generate it see this tutorial. Then you just have to use the name of the server in the config file. In this situation, the proxy jump is handle within the config file!
+
+
