@@ -121,6 +121,6 @@ a. Open **PyCharm | Preferences** and then go in **Tools | SSH Connfigurations**
 
 b. Then you can manage your ssh configurations or create a new one by clicking on the + sign.
 
-c. For the rest, it is relatively straigthforward. We will take an example here with a .ssh/config file. I think it is the simplest way to work. To generate it see this tutorial. Then you just have to use the name of the server in the config file. In this situation, the proxy jump is handle within the config file!
+c. For the rest, it is relatively straigthforward. We will take an example here with a .ssh/config file. I think it is the simplest way to work. To generate it see the  tutorial on [ssh configuration for astro servers](ssh_config_on_astro_servers.md). Then you just have to use the name of the server in the config file. In this situation, the proxy jump is handle within the config file!
 
 
