@@ -56,4 +56,4 @@ Host YourLoginName_maestria
 ```
 Don't forget to change `YourLoginName` above to your user name on maestria.
 
-Now, you should be able to connect to maestria simply  by typing: `ssh maestria`.
+Now, you should be able to connect to maestria simply  by typing: `ssh YourLoginName_maestria`.
